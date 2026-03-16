@@ -1,0 +1,20 @@
+# Environment
+.env
+
+# PrestaShop - ignoruj wszystko oprócz modułu
+prestashop/*
+!prestashop/modules/
+prestashop/modules/*
+!prestashop/modules/currency_rate/
+
+# Vendor modułu (generowany przez composer)
+prestashop/modules/currency_rate/vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
